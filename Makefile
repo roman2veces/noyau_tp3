@@ -1,5 +1,5 @@
 all:
-	gcc -O0 -std=gnu11 -Werror -Wall -Wno-unused-result -Wno-unused-variable -o processlab ./libprocesslab/libprocesslab.c  part1.c part2.c ./libprocesslab/processlab.c -lrt 
+	gcc -O0 -std=gnu11 -Werror -Wall -Wno-unused-result -Wno-unused-variable -o processlab ./libprocesslab/libprocesslab.c  part1.c part2.c ./libprocesslab/processlab.c -lrt -pthread 
 
 mac:
 	gcc -O0 -std=gnu11 -Werror -Wall -Wno-unused-result -Wno-unused-variable -o processlab ./libprocesslab/libprocesslab.c  part1.c part2.c ./libprocesslab/processlab.c
