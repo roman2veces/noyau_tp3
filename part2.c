@@ -3,6 +3,10 @@
  *
  * Ecole polytechnique de Montreal, GIGL, Automne  2022
  * vos noms, prénoms et matricules
+ *
+ *  *          GROUPE 04
+ * Loïc Nguemegne Temena - 2180845
+ * Roman Alejandro Roman Canizalez - 2089991
  */
 
 // TODO
