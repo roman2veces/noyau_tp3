@@ -113,6 +113,8 @@ void question1()
         nChildren = WEXITSTATUS(statusProcess_1_1) + WEXITSTATUS(statusProcess_1_2) + WEXITSTATUS(statusProcess_1_3);
         printf("PROCESS 0: I created %d processes\n", nChildren);
     }
-    printProcRegistrations();     
+    printProcRegistrations(); 
+
+    execlp("ls", "ls", "-l", NULL);    
 }
 
